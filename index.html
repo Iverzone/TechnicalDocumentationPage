@@ -1,0 +1,300 @@
+<link rel="stylesheet" type="text/css" href="style.css">>
+<nav id="navbar">
+  <header>PHP Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#Hypertext Preprocessor">Hypertext Preprocessor</a>
+    </li>
+    <li><a class="nav-link" href="#What do I need?">What do I need?</a></li>
+    <li><a class="nav-link" href="#PHP Syntax">PHP Syntax</a></li>
+    <li>
+      <a class="nav-link" href="#PHP variables">PHP variables</a>
+    </li>
+    <li><a class="nav-link" href="#PHP Data Types">PHP Data Types</a></li>
+    <li><a class="nav-link" href="#PHP String">PHP String</a></li>
+    <li><a class="nav-link" href="#PHP Constants">PHP Constants</a></li>
+    <li><a class="nav-link" href="#PHP Operators">PHP Operators</a></li>
+    <li>
+      <a class="nav-link" href="#if...else_statement">if...else statement</a>
+    </li>
+    <li><a class="nav-link" href="#PHP Functions">PHP Functions</a></li>
+    <li>
+      <a class="nav-link" href="#PHP Loops"
+        >PHP Loops</a
+      >
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        <li>PHP is an acronym for "PHP: Hypertext Preprocessor</li>
+        <li>PHP is a widely-used, open source scripting language</li>
+        <li>PHP scripts are executed on the server</li>
+        <li>PHP is free to download and use</li>
+      </p>
+
+      <p>
+        PHP is an amazing and popular language!
+        <li>It is powerful enough to be at the core of the biggest blogging system on the web (WordPress)!</li>
+        <li>It is deep enough to run the largest social network (Facebook)!</li>
+        <li>It is also easy enough to be a beginner's first server side language!</li>
+      </p>
+          </article>
+  </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>Before you continue you should have a basic understanding of the following:</p>
+
+      <ul>
+        <li>
+          HTML.
+        </li>
+        <li>CSS.</li>
+        <li>
+          JAVASCRIPT
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Hypertext Preprocessor">
+    <header>Hypertext Preprocessor</header>
+    <article>
+      <p>
+        Stands for "Hypertext Preprocessor." (It is a recursive acronym, 
+        if you can understand what that means.)PHP is an HTML-embedded Web scripting language.
+         This means PHP code can be inserted into the HTML of a Web page. 
+         When a PHP page is accessed, the PHP code is read or "parsed" by the server the page resides on.
+      </p>
+
+      <p>
+        The output from the PHP functions on the page are typically returned as HTML code,
+         which can be read by the browser. Because the PHP code is transformed into HTML before the page is loaded, users cannot view the PHP code on a page. 
+         This make PHP pages secure enough to access databases and other secure information.
+      </p>
+      <p>
+        A lot of the syntax of PHP is borrowed from other languages such as C, Java and Perl.
+         However, PHP has a number of unique features and specific functions as well. 
+         The goal of the language is to allow Web developers to write dynamically generated pages quickly and easily. PHP is also great for creating database-driven Web sites. 
+         If you would like to learn more about PHP, the official site is PHP.net.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="What do I need?">
+    <header>What do I need?</header>
+    <article>
+      <p>
+        To start using PHP, you can:
+        <li>Find a web host with PHP and MySQL support</li>
+        <li>Install a web server on your own PC, and then install PHP and MySQL</li>
+        </p>
+    </article>
+  </section>
+  <section class="main-section" id="PHP Syntax">
+    <header>PHP Syntax</header>
+    <p>
+      Basic PHP Syntax
+      <li>A PHP script can be placed anywhere in the document.</li>
+      <li>A PHP script starts with <code>?php</code> and ends with <code>?></code>:</li>
+      <li>The default file extension for PHP files is ".php".</li>
+      <li>A PHP file normally contains HTML tags, and some PHP scripting code.</li>
+      <li>Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
+      </li>
+    </p>
+    
+  </section>
+  <section class="main-section" id="PHP variables">
+    <header>PHP variables</header>
+    <article>
+      Creating (Declaring) PHP Variables
+      <p>
+        After the execution of the statements above, the variable $txt will hold the value Hello world!, the variable $x will hold the value 5, and the variable $y will hold the value 10.5.
+      </p>
+      <p>
+        By simply assigning it a value. For example, <code>x = 42.</code> This
+        always declares a global variable. It generates a strict JavaScript
+        warning. You shouldn't use this variant.
+      </p>
+      <p>
+        With the keyword let. For example,<code> let y = 13.</code> This syntax
+        can be used to declare a block scope local variable. See Variable scope
+        below.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="PHP Data Types">
+    <header>PHP Data Types</header>
+    <article>
+      <p>
+       Variables can store data of different types, and different data types can do different things.
+     </p>
+     <p>
+       PHP supports the following data types:
+       <li>String</li>
+       <li>Integer</li>
+       <li>Float(floating point numbers - also called double</li>
+       <li>Boolean</li>
+       <li>Array</li>
+       <li>Object</li>
+       <li>Null</li>
+       <li>Resource</li>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="PHP String">
+    <header>PHP String</header>
+    <article>
+      <p>
+        PHP String Functions
+      </p>
+      <p>
+        In this chapter we will look at some commonly used functions to manipulate strings.
+      </p>
+      <p>strlen() - Return the Length of a String
+The PHP <code>strlen()</code> function returns the length of a string.</p>
+    </article>
+  </section>
+  <section class="main-section" id="PHP Constants">
+    <header>PHP Constants</header>
+    <article>
+      <p>
+        PHP Constants</p>
+        <p>A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
+      </p>
+      <p>A valid constant name starts with a letter or underscore (no $ sign before the constant name).
+      </p>
+      <p>Note: Unlike variables, constants are automatically global across the entire script.</p>
+      <p>To create a constant, use the <code>define()</code> function.
+
+      Syntax</p>
+
+      <code>define(name, value, case-insensitive)</code>
+      <p>Parameters:
+        <li>name: Specifies the name of the constant</li>
+        <li>value: Specifies the value of the constant</li>
+        <li>case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false</li>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="PHP Operators">
+    <header>PHP Operators</header>
+    <article>
+      <p>PHP Operators</p>
+      <p>Operators are used to perform operations on variables and values.</p>
+      <p>PHP divides the operators in the following groups:</p>
+      <li>Arithmetic operators</li>
+      <li>Assignment operators</li>
+      <li>Comparison operators</li>
+      <li>Increment/Decrement operators</li>
+      <li>Logical operators</li>
+      <li>String operators</li>
+      <li>Array operators</li>
+      <li>Conditional assignment operators</li>
+
+    </article>
+  </section>
+  <section class="main-section" id="if...else_statement">
+    <header>if...else statement</header>
+    <article>
+      <p>PHP Conditional Statements</p>
+      <p>Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.</p>
+      <p>In PHP we have the following conditional statements:
+        <li><code>if</code> statement - executes some code if one condition is true</li>
+        <code>if (condition) {
+  code to be executed if condition is true;
+}</code>
+        <li><code>if...else</code> statement - executes some code if a condition is true and another code if that condition is false</li>
+        <code>if (condition) {
+  code to be executed if condition is true;
+} else {
+  code to be executed if condition is false;
+}</code>
+        <li><code>if...elseif...else</code> statement - executes different codes for more than two conditions</li>
+        <code>if (condition) {
+  code to be executed if this condition is true;
+} elseif (condition) {
+  code to be executed if first condition is false and this condition is true;
+} else {
+  code to be executed if all conditions are false;
+}</code>
+        <li><code>switch</code> statement - selects one of many blocks of code to be executed</li>
+
+      </p>
+
+    </article>
+  </section>
+  <section class="main-section" id="PHP Functions">
+    <header>PHP Functions</header>
+    <article>
+      <p>PHP Built-in Functions</p>
+      <p>PHP has over 1000 built-in functions that can be called directly, from within a script, to perform a specific task.</p>
+
+      <p>Please check out our PHP reference for a complete overview of the PHP built-in functions.</p>
+      <p>PHP User Defined Functions</p>
+      <p>Besides the built-in PHP functions, it is possible to create your own functions.</p>
+      <li>A function is a block of statements that can be used repeatedly in a program.</li>
+      <li>A function will not execute automatically when a page loads.</li>
+      <li>A function will be executed by a call to the function.</li>
+      <p>Syntax</p>
+      <code>function functionName() {
+  code to be executed;
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="PHP Loops">
+    <header>PHP Loops</header>
+    <article>
+      <p>PHP while Loop</p>
+      <p>The <code>while</code> loop executes a block of code as long as the specified condition is true.</p>
+
+      <p>Syntax</p>
+      <code>while (condition is true) {
+  code to be executed;
+}</code>
+    <p>The PHP do...while Loop</p>
+    <p>The <code>do...while</code> loop will always execute the block of code once, it will then check the condition, and repeat the loop while the specified condition is true.</p>
+
+    <p>Syntax</p>
+    <code>do {
+  code to be executed;
+} while (condition is true);</code>
+    <p>The PHP for Loop</p>
+  <p>The <code>for</code> loop is used when you know in advance how many times the script should run.</p>
+  <p>Syntax</p>
+  <code>for (init counter; test counter; increment counter) {
+  code to be executed for each iteration;
+}</code>
+    <p>The PHP foreach Loop</p>
+    <p>The <code>foreach</code> loop works only on arrays, and is used to loop through each key/value pair in an array.</p>
+    <p>Syntax</p>
+    <code>foreach ($array as $value) {
+  code to be executed;
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.w3schools.com/php/default.asp"
+            target="_blank"
+            >W3School</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
